@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jujutsu Kaisen Fan Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#plot">Plot</a></li>
+            <li><a href="#info">Key Info</a></li>
+            <li><a href="#cast">Cast</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+        </ul>
+    </nav>
+
+    <header class="main-header">
+        <h1>Jujutsu Kaisen</h1>
+        <p>A world where human emotions become Curses.</p>
+    </header>
+
+    <main>
+        <section id="plot" class="content-section">
+            <h2>Plot Overview</h2>
+            <p>Yuji Itadori, a high school student with extraordinary physical abilities, swallows a rotting finger of a powerful Curse named Ryomen Sukuna to save his friends. He soon joins the Tokyo Jujutsu High School to find and consume Sukuna's remaining fingers and eventually execute himself to destroy the Curse forever.</p>
+        </section>
+
+        <section id="info" class="content-section">
+            <h2>Key Information</h2>
+            <ul>
+                <li><strong>Genre:</strong> Dark Fantasy, Supernatural, Adventure</li>
+                <li><strong>Studio:</strong> MAPPA</li>
+                <li><strong>Original Run:</strong> October 2020 – Present</li>
+            </ul>
+        </section>
+
+        <section id="cast" class="content-section">
+            <h2>Creative Team & Characters</h2>
+            <p>Created by Gege Akutami. The series features iconic characters like Satoru Gojo, Megumi Fushiguro, and Nobara Kugisaki.</p>
+        </section>
+
+        <section id="reviews" class="content-section">
+            <h2>Reviews</h2>
+            <p>"A masterclass in modern shonen animation with high stakes and incredible fight choreography." - <em>Anime Critic</em></p>
+            <p>"The animation by MAPPA is breathtaking, setting a new standard for the industry." - <em>Fan Review</em></p>
+        </section>
+
+        <section class="link-section">
+            <a href="https://www.crunchyroll.com/series/GR9PJ2K2Y/jujutsu-kaisen" target="_blank" class="btn-link">Watch Official Series</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Web Dev Student Project</p>
+    </footer>
+
+</body>
+</html>
