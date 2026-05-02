@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Development Quick-Reference</title>
+    <!-- Linking an external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Web Tech Guide</h1>
+        <p>A reference for tags and styles covered in Chapter 2 and 4.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Text Formatting Tags</h2>
+            <p>Use <code>&lt;strong&gt;</code> for <strong>bold</strong> and <code>&lt;em&gt;</code> for <em>italics</em>.</p>
+            
+            <h3>Code Snippets</h3>
+            <p>Use the <code>&lt;pre&gt;</code> tag to preserve whitespace for code blocks:</p>
+            <pre>
+function helloWorld() {
+    console.log("Hello, IT Student!");
+}
+            </pre>
+
+            <h3>Quotes and Time</h3>
+            <p>The <code>&lt;blockquote&gt;</code> is for long quotes, and <code>&lt;time&gt;</code> defines a specific date.</p>
+            <p>Current Date: <time datetime="2026-04-29">April 29, 2026</time></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Web Development Module</p>
+    </footer>
+
+</body>
+</html>
