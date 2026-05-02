@@ -1,0 +1,45 @@
+/* Universal selector to reset box-sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* Type selector for the body */
+body {
+    /* Typography properties */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.8;
+    
+    /* Colors and spacing */
+    background-color: #f0f2f5;
+    color: #1c1e21;
+    margin: 40px;
+}
+
+/* Specific heading selectors */
+h1 {
+    color: #05668d;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #02c39a;
+    border-left: 5px solid #02c39a;
+    padding-left: 10px;
+}
+
+/* Formatting for code examples */
+code {
+    background-color: #e0e0e0;
+    color: #d90429;
+    padding: 2px 5px;
+}
+
+pre {
+    background-color: #2b2d42;
+    color: #edf2f4;
+    padding: 20px;
+    border-radius: 5px;
+}
