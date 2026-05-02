@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recipe Page</title>
+</head>
+<body>
+
+    <!-- h1 tag for the recipe name -->
+    <h1>Authentic Chicken Adobo</h1>
+
+    <!-- p tag for description with bold and italics -->
+    <p>
+        This is a <strong>classic Filipino comfort dish</strong>. It is <em>tangy, salty, and slightly sweet</em>, making it a favorite for many households. 
+        <br>
+        Published on: <time datetime="2026-04-29">April 29, 2026</time>
+    </p>
+
+    <blockquote>
+        "The secret to a great Adobo is the balance between the vinegar and soy sauce." - Traditional Saying
+    </blockquote>
+
+    <!-- h2 tag for ingredients -->
+    <h2>Ingredients</h2>
+
+    <!-- Unordered list for ingredients -->
+    <ul>
+        <li><strong>1kg</strong> Chicken (Thighs or Drumsticks)</li>
+        <li><strong>1/2 cup</strong> Soy Sauce</li>
+        <li><strong>1/3 cup</strong> Cane Vinegar</li>
+        <li><em>5 cloves</em> Garlic (crushed)</li>
+        <li><em>3 pieces</em> Dried Bay Leaves</li>
+    </ul>
+
+    <!-- h2 tag for the method -->
+    <h2>Method</h2>
+
+    <!-- Ordered list for the steps -->
+    <ol>
+        <li>Combine chicken, soy sauce, and garlic in a bowl. Marinate for 30 minutes.</li>
+        <li>Heat a pot and add the marinated chicken. Simmer for 10 minutes.</li>
+        <li>Add the vinegar, bay leaves, and whole peppercorns. <strong>Do not stir immediately</strong> to let the vinegar cook off.</li>
+        <li>Cover and simmer for 20-25 minutes until the sauce reduces.</li>
+    </ol>
+
+</body>
+</html>
