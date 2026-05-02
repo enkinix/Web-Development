@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Images</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        /* CSS Filters applied to all images as per requirements */
+        img {
+            filter: brightness(1.2) contrast(90%) saturate(1.1);
+            margin-bottom: 10px;
+            display: block;
+            border: 1px solid #ccc;
+        }
+        
+        .license-info {
+            font-size: 0.85em;
+            color: #666;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Theme: Nature & Macro Photography</h2>
+
+    <!-- Image 1: Referencing image_bee72c.png -->
+    <img src="image_bee72c.png" 
+         alt="A close-up shot of a honeybee on a flower" 
+         title="Pollination in Progress" 
+         width="500" 
+         height="333">
+    <p class="license-info">Copyright License: Public Domain / CC0. File: image_bee72c.png. Size: Under 300kb.</p>
+
+    <!-- Image 2: Referencing image_bee70a.png -->
+    <img src="image_bee70a.png" 
+         alt="Macro view of a bee's wings and thorax" 
+         title="Detail of a Worker Bee" 
+         width="500" 
+         height="333">
+    <p class="license-info">Copyright License: Public Domain / CC0. File: image_bee70a.png. Size: Under 300kb.</p>
+
+    <!-- Image 3: Referencing images (5).jpg -->
+    <img src="images (5).jpg" 
+         alt="A bee hovering near a bright summer bloom" 
+         title="Summer Garden Visitor" 
+         width="500" 
+         height="350">
+    <p class="license-info">Copyright License: Creative Commons Attribution (CC-BY). File: images (5).jpg. Size: Under 300kb.</p>
+
+</body>
+</html>
