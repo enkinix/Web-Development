@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f7f5f0;
+    color: #5c5651;
+    padding: 50px 20px;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    margin-bottom: 40px;
+    text-align: center;
+}
+h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #4a443f;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+h2::after {
+    content: '✿';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #dfb2b2;
+    font-size: 1.2rem;
+}
+.gallery-container {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-top: 20px;
+}
+.gallery-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(180, 174, 165, 0.15);
+    border: 2px solid #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gallery-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(180, 174, 165, 0.25);
+}
+.gallery-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    filter: brightness(1.2) contrast(90%) saturate(1.1); 
+}
+.photo-credit {
+padding: 16px 20px;
+    font-size: 0.85rem;
+    text-align: center;
+    color: #9c928a;
+    background-color: #faf9f6;
+    border-top: 1px solid #f3eff5;
+}
+.photo-credit a {
+    color: #80ab88;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 2px 4px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+.photo-credit a:hover {
+    background-color: #eef3ef;
+    color: #dfb2b2;
+}
+@media (max-width: 640px) {
+    body {
+        padding: 30px 15px;
+    }
+    h2 {
+        font-size: 1.4rem;
+    }
+    .gallery-container {
+        gap: 25px;
+    }
+}
