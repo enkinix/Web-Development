@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.8;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+    margin: 40px;
+}
+h1 {
+    color: #4000a7;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+h2 {
+    color: #c3029c;
+    border-left: 5px solid #c3029c;
+    padding-left: 10px;
+}
+code {
+    background-color: #e0e0e0;
+    color: #ff284c;
+    padding: 2px 5px;
+}
+pre {
+    background-color: #2b2d42;
+    color: #edf2f4;
+    padding: 20px;
+    border-radius: 5px;
+}
